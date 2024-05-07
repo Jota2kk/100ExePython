@@ -1,0 +1,6 @@
+times = ('Botafogo', 'Palmeiras', 'Fluminence', 'Atletico', 'Cruzeiro', 'Flamengo', 'Atletico Pr', 'Sao Paulo', 'Santos', 'Gremio')
+print(f'Todos os times do brasileirão: {times}')
+print(f'Os 5 primeiros times são{times[0:5]}')
+print(f'Os ultimos 4 colocados na tabela sao: {times[6:]}')
+print(f'todos os times em ordem alfabetica: {sorted(times)}')
+print(f'O time do flamengo esta na posição{enumerate(times)}')
